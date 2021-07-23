@@ -137,5 +137,40 @@ header, .navbar{
     margin-bottom: 40px;
 }
 
-#email-area p {
+/*Aqui começo a modificar o form do email */
+#email-input {
+    border-radius: 0%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px sold #65daf9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
 
+#email-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #65daf9;
+    background-color: #65daf9;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+#email-btn:hover{
+    background-color: #fff;
+    color: #65daf9;
+}
+/*fim da configuração do form */
+
+/*footer */
+#footer-area {
+    background-color: #444;
+    width: auto;
+    height: auto;
+}
