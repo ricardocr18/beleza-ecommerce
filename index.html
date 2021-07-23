@@ -16,45 +16,45 @@
 
 <body>
 
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">
-                    <img id="logo" src="#" alt="BelezaEcommerce">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-links"
-                    aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="about-menu">Sobre</a>
-                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
     <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Beleza Ecommerce</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pai.html">Pai</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Linha SPA</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>          
+        
+    
+
+   
         <div class="container-fluid">
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="=#mainSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="=#mainSlider" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <!-- Todos os slide devem está dentro dessa div-->
-                    <div class="carousel-item active">
-                        <!-- Se tiver mais imagens no Banner só o primeiro pode ter (active) os outros não -->
-                        <img src="./img/background.png" class="d-block w-100" alt="Divulgação da Beleza Ecommerce">
-                        <div class="carousel-caption d-nome d-md-block">
-                            <h2>Beleza Ecommerce</h2>
-                            <p>Seleção de Produtos</p>
-                            <a href="#" class="main-btn">Venha conferir</a>
-                        </div>
+               
+                  <div class="carousel-inner"> <!-- Todos os slide devem está dentro dessa div-->
+                    <div class="carousel-item active"> <!-- Se tiver mais imagens no Banner só o primeiro pode ter (active) os outros não -->
+                      <img src="./img/background.png" class="d-block w-100" alt="Oportunidade de credito">
+                      <div class="carousel-caption d-nome d-md-block">
+                        <h2>Beleza Ecommerce</h2>
+                        <p>Tudo em Promoções</p>
+                        
+                      </div>
                     </div>
-                </div>
+            </div>
 
                 <!-- Card dias dos Pais -->
                 <div class="pais-area">
@@ -62,6 +62,7 @@
                         <div class="row">
                             <div class="card mb-3">
                                 <h3 class="main-title">Presentei se Pai</h3>
+                            
                             </div>
 
                             <div class="col-md-3">
@@ -128,7 +129,7 @@
                                     <img src="./img/produto2.png" class=" mx-auto d-block"
                                         alt="Presente para Pai SOFISTICADO?">
                                     <div class="card-body">
-                                        <p class="card-text">Nativa Spa Jasmim<a href="#"
+                                        <p class="card-text">Nativa Spa Jasmim<a href="produtos.html"
                                                 class="btn btn-primary">QUERO</a></p>
                                     </div>
                                 </div>
@@ -138,7 +139,7 @@
                                     <img src="./img/produto3.png" class=" mx-auto d-block"
                                         alt="Presente para Pai SOFISTICADO?">
                                     <div class="card-body">
-                                        <p class="card-text">Nativa Spa Rosé<a href="#" class="btn btn-primary">VEM</a>
+                                        <p class="card-text">Nativa Spa Rosé<a href="produtos.html" class="btn btn-primary">VEM</a>
                                         </p>
                                     </div>
                                 </div>
@@ -148,7 +149,7 @@
                                     <img src="./img/produto4.png" class=" mx-auto d-block"
                                         alt="Presente para Pai SOFISTICADO?">
                                     <div class="card-body">
-                                        <p class="card-text">Nativa Spa Quinoa<a href="#"
+                                        <p class="card-text">Nativa Spa Quinoa<a href="produtos.html"
                                                 class="btn btn-primary">AQUI</a></p>
                                     </div>
                                 </div>
@@ -157,7 +158,7 @@
                     </div>
                 </div>
 
-                <!-- Solcitação de e-mail-->
+                <!-- Solcitação de e-mail -->
                 <div id="email-area">
                     <div class="container">
                         <div class="col-ml-12">
@@ -172,13 +173,7 @@
                     </div>                    
                 </div>
 
-                <div id="footer-area">
-                    <div class="container">
-                        <div class="col-ml-12">
-                            <h3 class="main-title">BELEZA ECOMMERCE</h3>
-                        </div>
-                    </div>
-                </div>
+               
 
 
 
@@ -190,8 +185,7 @@
 
 
 
-
-            </div>
+            
 
 
 
