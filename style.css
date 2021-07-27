@@ -51,9 +51,10 @@ header, .navbar{
     padding: 0;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item{
-  
-    height: 90vh;
+
+.carousel-item img{
+    height: 80vh;
+    width: auto;
 }
 
 #mainSlider .carousel-caption {
@@ -158,6 +159,11 @@ header, .navbar{
     height: auto;
 }
 
+/*#mainSlider .carousel-inner, #mainSlider .carousel-item{
+  
+    height: 90vh;
+}*/
+
 
     
    
@@ -169,8 +175,4 @@ header, .navbar{
     
 
 
-
-
-
-}
 
